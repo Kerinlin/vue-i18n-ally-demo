@@ -1,0 +1,12 @@
+{
+    "item": "item",
+    "btn": {
+        "b1": "save",
+        "b2": "LOL",
+        "b3": {
+            "b1": "test",
+            "b2": "Test content extraction"
+        }
+    },
+    "qu-xiao": "Cancel"
+}

@@ -1,0 +1,16 @@
+{
+  //工作区配置,如果要配置多个文件夹，直接添加path即可，路径path是当前配置文件相对于真实的项目路径的
+	"folders": [
+    //
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "i18n-ally.localesPaths": ["src/locales"], //配置工作区内的语言包文件夹的匹配路径，可以为多个匹配
+    "i18n-ally.extract.keygenStyle": "camelCase", //对默认生成的key的命名
+    "i18n-ally.keystyle": "nested", //对于key的处理,包裹nesta:{b:{c:value}}, 展平flat a.b.c: value
+    "i18n-ally.review.enabled": false,
+    "i18n-ally.annotationMaxLength": 30
+  }
+}
